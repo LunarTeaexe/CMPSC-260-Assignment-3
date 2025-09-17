@@ -1,3 +1,5 @@
 # CMPSC-260-Assignment-3
 
-A replica website build with the help of copilot as part of an assignment
+A small website for a cafe where you can leave reviews that scroll on top and view coffee products. 
+
+Download and then open "index.html" from your file location. 
