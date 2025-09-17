@@ -1,0 +1,57 @@
+/* Basic styling for the review form and reviews section */
+.review-section {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 24px;
+}
+.review-section h2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.review-form label {
+  display: block;
+  margin: 12px 0 4px;
+  font-weight: bold;
+}
+.review-form input, .review-form textarea, .review-form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+.review-form button {
+  background: #8d5524;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.review-form button:hover {
+  background: #a9744f;
+}
+.reviews-list {
+  margin-top: 32px;
+}
+.review {
+  border-bottom: 1px solid #eee;
+  padding: 12px 0;
+}
+.review:last-child {
+  border-bottom: none;
+}
+.review .reviewer {
+  font-weight: bold;
+  color: #8d5524;
+}
+.review .rating {
+  color: #e2b007;
+  font-size: 1.1em;
+}

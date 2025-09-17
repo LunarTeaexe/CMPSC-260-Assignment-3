@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Fall Coffee</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body style="background-color:powderblue;">
+        <h1 style="text-align:center;">Fall Coffee</h1>
+        <p style="text-align:center;">support your local brewers</p>
+
+        <div class="review-section">
+            <h2>Leave a Review</h2>
+            <form class="review-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                <label for="rating">Rating</label>
+                <select id="rating" name="rating" required>
+                    <option value="">Select</option>
+                    <option value="5">★★★★★</option>
+                    <option value="4">★★★★☆</option>
+                    <option value="3">★★★☆☆</option>
+                    <option value="2">★★☆☆☆</option>
+                    <option value="1">★☆☆☆☆</option>
+                </select>
+
+                <label for="comment">Comment</label>
+                <textarea id="comment" name="comment" rows="4" placeholder="Write your review here..." required></textarea>
+
+                <button type="submit">Post Review</button>
+            </form>
+
+            <div class="reviews-list">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <span class="reviewer">Alex</span> <span class="rating">★★★★★</span>
+                    <div class="comment">Great coffee and cozy atmosphere!</div>
+                </div>
+                <div class="review">
+                    <span class="reviewer">Jamie</span> <span class="rating">★★★★☆</span>
+                    <div class="comment">Loved the pumpkin spice latte!</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
